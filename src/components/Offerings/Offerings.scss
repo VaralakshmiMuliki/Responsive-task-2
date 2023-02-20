@@ -1,0 +1,60 @@
+.offerings-container {
+  text-align: center;
+
+  font-size: 16px;
+  padding-bottom: 75px !important;
+  background: #f3f3f7
+    url(http://jevelin.shufflehound.com/finances/wp-content/uploads/sites/26/2019/03/Group-19-copy.png?id=570) !important;
+  background-position: 0 0 !important;
+  background-repeat: no-repeat !important;
+  padding-top: 100px;
+
+  h1 {
+    color: #3f3d56;
+    font-size: 1.7em;
+    font-weight: 700;
+  }
+  p {
+    font-size: 1em;
+    color: #3f3d56;
+  }
+
+  .offer-card {
+    // display: flex;
+    background-color: white;
+    font-family: roboto;
+    line-height: 25px;
+    margin-top: 20px;
+
+    .title-container {
+      text-align: left;
+    }
+
+    .forward-icon {
+      color: red;
+      font-size: 2em;
+    }
+
+    h3 {
+      font-family: "roboto";
+      color: #3f3d56;
+      font-weight: 700 !important;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    p {
+      color: #898989;
+      font-weight: 300;
+      font-size: 15px;
+    }
+    #offer-image-container {
+      text-align: right;
+      margin-top: 40px;
+
+      // text-align: right;
+    }
+  }
+}
+
+.offers-cards-bg {
+}

@@ -1,0 +1,57 @@
+.subscribe-container {
+  background: #3a354a
+    url(http://jevelin.shufflehound.com/finances/wp-content/uploads/sites/26/2019/07/susbscribe-bg.jpg?id=553) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+//   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  
+
+  span {
+    color: #ff414a;
+    font-style: italic;
+    font-size: 36px;
+    font-family: "Philosopher";
+  }
+  h1 {
+    font-weight: 700;
+    font-family: "roboto";
+    color: #ffffff;
+    font-size: 36px;
+  }
+  p {
+    color: white;
+  }
+  .user-email {
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+    background-color: #626075;
+    border-color: rgba(0, 0, 0, 0.01);
+    border-radius: 100px;
+    border-width: 0px;
+    transition: 0.3s all ease-in-out;
+    margin-top: 20px;
+  }
+  ::placeholder {
+    color: white;
+  }
+
+  .send-btn{
+    background-color: white;
+    border-radius: 30px;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+   
+  }
+}

@@ -1,0 +1,63 @@
+@media (max-width: "767px") {
+  .benefits-column {
+    padding: 50px 30px 0px 30px !important;
+  }
+}
+
+@media (min-width: "768px") and (max-width: "1023px") {
+  .growth-container {
+    width: 100%;
+
+    .benefits-column {
+      padding: 50px 60px 0px 60px;
+      width: 70%;
+      margin: auto;
+    }
+  }
+
+  .benefit-title-and-des {
+    // padding-left: 80px;
+    // padding-right: 80px;
+    width: 290px;
+  }
+  .subscribe-container {
+    #user-email {
+      border: 5px solid red;
+      width: 30%;
+    }
+    .send-btn {
+      margin-top: 20px;
+    }
+  }
+  .clients-container {
+    .client-review-column {
+      p {
+        width: 500px;
+      }
+    }
+  }
+}
+
+@media (min-width: "1024px") {
+  .growth-container {
+    padding: 80px 15px 80px 15px;
+    .benefits-column {
+      //   width: 100%;
+    }
+  }
+  .subscribe-container {
+    #user-email {
+      width: 30%;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .send-btn {
+      position: relative;
+      top: -48px;
+      left: 110px;
+    }
+  }
+  .contact-btn-container{
+    text-align: right;
+  }
+}
